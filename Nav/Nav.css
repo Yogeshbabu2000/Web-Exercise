@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width:100%;
+    height: 40px;
+    background-color: red;
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid white;
+    margin-left:10%;
+    padding: 5px;
+    border-radius:15px;
+    background-color: white;
+}
+div{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-color: yellow;
+    top: 40px;
+    left: 0px;
+}
+#About_div,#Career_div,#Innovations_div,#Industries_div,#Contact_div{
+    visibility: hidden;
+}
+#about:hover~#About_div{
+    visibility: visible;
+}
+#career:hover~#Career_div{
+    visibility: visible;
+}
+#innovations:hover~#Innovations_div{
+    visibility: visible;
+}
+#industries:hover~#Industries_div{
+    visibility: visible;
+}
+#contact:hover~#Contact_div{
+    visibility: visible;
+}
